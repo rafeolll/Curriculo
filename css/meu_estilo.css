@@ -1,0 +1,111 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 50px;
+    background-color: #484848;
+    color: #c8c8c8;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+nav li{
+ padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: orange
+}
+
+a:hover{
+    color: #8961b5;
+}
+section{
+    min-height: 480px;
+    background-color: #484848;
+    color:orange;
+    padding: 10px;
+    border: 2px dotted #8961b5
+}
+
+.comando-git{
+    padding: 5px;
+    font-size: 1.25rem;
+    border: 3px solid #9920a3;
+    background-color: #c9c8c8;
+    color: #484848;
+}
+
+.comando-sobre
+{
+    padding: 5px;
+    font-size: 1.25rem;
+    border: 3px solid #b446be;
+    background-color: #d17a7a;
+    color: #1eff00;
+}
+
+p{
+    padding: 5px;
+}
+
+
+.conteudo{
+    margin-top: 50px;
+}
+
+
+#projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.projeto{
+    height: 250px;
+    width: 250px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+    padding: 50px;
+}
+
+
+.projeto>img{
+    width: 100%;
+}
+
+.labels span{
+    color: white;
+    background-color: rgb(185, 120, 0);
+    border-radius: 100px;
+    padding: 2px 5px;
+}
+
+.logos
+{
+    width: 100px;
+}
+footer
+{
+    background-color: #0c913fb4;
+    height: 170px;
+}
+.rodapeassunto
+{
+    font-size: 60px;
+    text-align: center;
+}
+.since 
+{
+    font-size: 50px;
+    color: #960e8b18;
+}
